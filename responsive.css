@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #1f2124;
+	font-size: 15px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header{
+	width: 100%;
+	height: 60%;
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav .derecha_header{
+	width: 250px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	align-items: center;
+}
+
+.derecha_header a{
+	margin-right: 10px;
+	color: white;
+}
+
+nav .derecha_header .menu_icono img{
+	width: 25px;
+	height: 25px;
+	background-size: contain;
+	cursor: pointer;
+}
+nav .foto_perfil img{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#logo{
+	height: 92px;
+	width: 272px;
+	margin-top: 116px;
+}
+main{
+	/*margin-top: 100px;*/
+	text-align: center;
+}
+main .caja-logo{
+	width: 530px;
+	margin:0 auto;
+	margin-bottom: 35px;
+}
+main .caja-input{
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+main .caja-input-container{
+	width: 525px;
+	border-radius: 100px;
+	border: 1px solid #e1e2e6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+main .caja-input input{
+	width: 450px;
+	height: 40px;
+	border: none;
+	outline: none;
+}
+main .caja-input-container:hover{
+	box-shadow: 0 1px 6px 0 #20212447;
+}
+main .caja-input .buscar{
+	background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+main .caja-input .microfono{
+	background-image: url('https://freepngimg.com/thumb/microphone/70666-voice-microphone-google-search-logo-png-file-hd.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+main .botones{
+	width: 530px;
+	margin: 0 auto;
+}
+main .botones div{
+	display: inline-block;
+}
+main .botones button{
+	height: 36px;
+	background-color: #303134;
+	border: none;
+    color: #e8eaed;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+main .botones button:hover{
+	border: 1px solid #303134;
+	box-shadow: 1px;
+}
+#google{
+	color: white;
+	margin-top: 15px;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	background-color: #171717;
+	border-top: 1px solid #171717;
+	position:absolute
+}
+footer ul{
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+footer .footer-link-left{
+	justify-content: left;
+}
+footer .footer-link-right{
+	justify-content: right;
+}
+footer ul li a{
+	margin: 10px;
+	color: #9aa0a6;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px){ 
+}
